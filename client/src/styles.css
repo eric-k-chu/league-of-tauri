@@ -2,12 +2,148 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: beaufort, serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL"),
+    url("./fonts/BeaufortforLOL-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL"),
+    url("./fonts/BeaufortforLOL-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL Heavy"),
+    url("./fonts/BeaufortforLOL-Heavy.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL Heavy"),
+    url("./fonts/BeaufortforLOL-HeavyItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL"),
+    url("./fonts/BeaufortforLOL-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL Light"),
+    url("./fonts/BeaufortforLOL-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL Light"),
+    url("./fonts/BeaufortforLOL-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL Medium"),
+    url("./fonts/BeaufortforLOL-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL Medium"),
+    url("./fonts/BeaufortforLOL-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Beaufort";
+  src:
+    local("Beaufort for LOL"),
+    url("./fonts/BeaufortforLOL-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.beaufort-b {
+  font-family: "Beaufort";
+  font-weight: 700;
+  font-style: normal;
+}
+
+.beaufort-bi {
+  font-family: "Beaufort";
+  font-weight: 700;
+  font-style: italic;
+}
+
+.beaufort-h {
+  font-family: "Beaufort";
+  font-weight: 600;
+  font-style: normal;
+}
+
+.beaufort-hi {
+  font-family: "Beaufort";
+  font-weight: 600;
+  font-style: italic;
+}
+
+.beaufort-l {
+  font-family: "Beaufort";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.beaufort-li {
+  font-family: "Beaufort";
+  font-weight: 300;
+  font-style: italic;
+}
+
+.beaufort-m {
+  font-family: "Beaufort";
+  font-weight: 500;
+  font-style: normal;
+}
+
+.beaufort-mi {
+  font-family: "Beaufort";
+  font-weight: 500;
+  font-style: italic;
+}
+
+.beaufort {
+  font-family: "Beaufort";
+}
+
+:root {
   color: #0f0f0f;
   background-color: #010a13;
 
