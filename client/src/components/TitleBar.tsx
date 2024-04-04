@@ -63,7 +63,7 @@ export function TitleBar() {
       </div>
       <dialog
         ref={settingsRef}
-        class="beaufort relative h-[80vh] w-[54vw] overflow-hidden border-2 border-[#785a28] bg-[#010a13] p-2"
+        class="beaufort-b relative h-[80vh] w-[54vw] overflow-hidden border-2 border-[#785a28] bg-[#010a13] p-2"
       >
         <div class="flex items-center justify-center gap-x-2 py-4">
           <strong class="text-lg uppercase text-[#A09B8C]">Client</strong>
