@@ -21,13 +21,16 @@ export function Settings() {
       </button>
       <dialog
         ref={settingsRef}
-        class="beaufort-b relative h-[80vh] w-[54vw] overflow-hidden border-2 border-[#785a28] bg-[#010a13] p-2"
+        class="beaufort-b relative h-[80vh] w-[54vw] overflow-hidden border-2 border-[#785a28] bg-[#010a13] p-4"
       >
         <div class="flex items-center justify-center gap-x-2 py-4">
           <strong class="text-lg uppercase text-[#A09B8C]">Client</strong>
           <strong class="text-lg uppercase text-[#A09B8C]">/</strong>
           <strong class="text-lg uppercase text-[#F0E6D2]">General</strong>
-          <button type="button" class="ml-auto px-8 text-[#A09B8C]">
+          <button
+            type="button"
+            class="ml-auto border border-[#785A28] bg-[#1E2328] px-8 py-2 text-sm text-[#A09B8C]"
+          >
             Restore Defaults
           </button>
         </div>
