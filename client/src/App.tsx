@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <TitleBar />
-      <div class="container"></div>
+      {/* <div class="container"></div> */}
     </>
   );
 }
